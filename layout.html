@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- [if lt IE 10]>
+        <link href="css/ie.css" type="text/css" rel="stylesheet"\>
+    <![endif]-->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body style="margin: 0px">
+    <nav class="nav-container">
+        <div class="nav-item">Shoe shop</div>
+        <div style="flex-grow: 1"></div>
+        <div class="nav-item">Products</div>
+        <div class="nav-item">Servicies</div>
+    </nav>
+    <div class="main-bg">
+        <h4 class="main-title">Buy Our Phone cases!</h4>
+        <p class="main-body">
+            투명 컬러의 핸드폰 케이스를 사도 빠르게 변색되어 주기적으로 교체하게 된다. 물론 빛바랜 폰 케이스를 그대로 유지하는 경우도 허다하지만,
+            새로운 디자인을 구매하기 위해 많은 사이트를 돌아본 경험이 있을 것이다. 케이스를 검색할 때 ‘폰 케이스’를 비롯하여 그와 비슷한 카테고리의 단어들을 입력해도,
+            매번 내가 찾는 인스타그램 속 사람들의 셀카에 나오는 폰 케이스를 찾기 힘들다. 들어가는 사이트마다 나오는 익숙한 디자인들과 차별성 없는 특징들에
+            결국에는 투명 케이스를 다시 낀 적이 있다면, 이 글을 추천한다. 오늘은 브랜드 저마다의 개성을 가진 폰 케이스 4가지를 소개한다
+        </p>
+        <button class="main-button">Buy now</button>
+    </div>
+
+    <div class="sub-bg">
+        <h4 class="sub-title">How we desing our shoes</h4>
+        <p class="sub-body">
+            Lorem ipsum dolor sit amet, consecteture adipisicing elit. Dolorem aliquid,
+            libero ut distinctio tempora labore ipsum tempore quae atque consectetur
+            dolores, sapiente cumque animi provident
+        </p>
+    </div>
+
+    <progress value="70" min="0" max="100"></progress>
+    <style>
+        progress {
+            appearance: none;
+            background: white;
+            color: red /* IE10 호환성용 */
+        }
+        progress::-webkit-progress-bar {
+            background-color: #f0f0f0;
+            border-radius: 10px;
+        }
+        progress::-webkit-progress-value {
+            border-radius: 10px;
+            background: red; /* IE10 호환성용 */
+            background: -webkit-linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+        }
+        /* FireFox 호환성용 */
+        progress::-moz-progress-value {
+            border-radius: 10px;
+            background: red; /* IE10 호환성용 */
+            background: -moz-linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+        }
+    </style>
+
+    <div class="product-container">
+        <div class="product-box">
+            <i class="fa-solid fa-cart-shopping fa-3x"></i>
+            <h3>Fast Shipping</h3>
+            <p>lorem lpsum</p>
+        </div>
+        <div class="product-box">
+            <i class="fa-solid fa-bell-concierge fa-3x"></i>
+            <h3>Good Service</h3>
+            <p>lorem lpsum</p>
+        </div>
+        <div class="product-box">
+            <i class="fa-solid fa-ticket fa-3x"></i>
+            <h3>Free Coupons</h3>
+            <p>lorem lpsum</p>
+        </div>
+        <div class="product-box">
+            <i class="fa-solid fa-box fa-3x"></i>
+            <h3>New Products</h3>
+            <p>lorem lpsum</p>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+
+    <div class="shop-bg">
+        <div class="shop-container">
+            <div class="shop-item">
+                <div style="position:relative; overflow: hidden;">
+                    <div class="overlay-wrapper">
+                        <div class="overlay">
+                            <p class="overlay-price">60$</p>
+                        </div>
+                    </div>
+                    <img src="img/product1.jpg">
+                </div>
+            </div>
+            <div class="shop-item">
+                <div style="position:relative; overflow: hidden;">
+                    <div class="overlay-wrapper">
+                        <div class="overlay">
+                            <p class="overlay-price">60$</p>
+                        </div>
+                    </div>
+                    <img src="img/product2.jpg">
+                </div>
+            </div>
+            <div class="shop-item"> 
+                <div style="position:relative; overflow: hidden;">
+                    <div class="overlay-wrapper">
+                        <div class="overlay">
+                            <p class="overlay-price">60$</p>
+                        </div>
+                    </div>
+                    <img src="img/product3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form class="contact">
+        <h1 class="contact-title">contact us</h1>
+        <div class="contact-email">
+            <p>Your Email</p>
+            <input type="email" placeholder="email@example.com">
+        </div>
+        <div class="name-container">
+            <div class="first-name">
+                <p>First name</p>
+                <input type="text">
+            </div>
+            <div class="last-name">
+                <p>Last name</p>
+                <input type="text">
+            </div>
+        </div>
+        <div class="contact-message">
+            <p>Message</p>
+            <input type="text">
+        </div>
+        <div class="contact-footer">
+            <div class="check"><input type="checkbox"></div>
+            <p class="checklabel">Subscribe</p>
+            <button type="submit" class="submit">SEND</button>
+        </div>
+    </form>
+</body>
+
+</html>

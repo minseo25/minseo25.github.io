@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'nanumR';
+    src: url(../font/NanumSquareR.woff);
+}
+body {
+    font-family: 'nanumR';
+}
+p,h4,h3,h2,h1,span {
+    transform: rotate(0.03deg);
+}
+.main-bg {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/seol.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+    padding-top: 1px;
+}
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+.main-body {
+    text-align: center;
+    color: cyan;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.main-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 150px;
+}
+.sub-bg {
+    margin: auto;
+    width: 70%;
+    max-width: 600px;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1px;
+    position: relative;
+    top: -20px;
+}
+.sub-body {
+    margin-bottom: 20px;
+}
+.sub-body::after {
+    content: "안녕";
+    color: red;
+    font-size: 30px;
+}
+div, form {
+    box-sizing: border-box;
+}
+input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.contact {
+    margin: auto;
+    width: 450px;
+    padding: 50px;
+    border: 1px solid black;
+}
+.contact-title {
+    margin-top: 0px;
+}
+.contact input {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.first-name {
+    float: left;
+    width: 45%;
+}
+.last-name {
+    float: right;
+    width: 45%;
+}
+.name-container::after {
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}
+.contact-message input {
+    height: 150px;
+    margin-bottom: 20px;
+}
+.contact-footer {
+    margin-bottom: 20px;
+}
+.check {
+    float: left;
+    margin: 0;
+    width: auto;
+}
+.checklabel {
+    float: left;
+    width: 20%;
+    margin: 0;
+    padding-left: 10px;
+}
+.submit {
+    float: right;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 20px;
+    padding: 5px 30px 5px 30px;
+}
+.contact-footer::after {
+    content: '';
+    display: block;
+    float: none;
+    clear: both;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 500px;
+    align-items: center;
+}
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
+}
+.nav-container {
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    align-items: center;
+}
+.nav-item {
+    margin-right: 15px;
+    font-size: 20px;
+    line-height: 1;
+}
+.product-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 1000px;
+}
+.product-box {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.product-container i {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding-top: 25px;
+    color: white;
+    margin-top: 20px;
+}
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.shop-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.shop-item {
+    width: 33%;
+    padding: 10px;
+}
+.overlay-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    transform: translateY(100%);
+}
+.overlay-wrapper:hover {
+    transform: translateY(-50%);
+}
+.overlay-price {
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.shop-item img {
+    width: 100%;
+    display: block;
+}
+
+.input-file::file-selector-button {
+    background-color: skyblue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.input-file::file-selector-button:hover {
+    background-color: blue;
+}
+
+
+@media screen and (max-width: 992px) {
+    .main-title {
+        font-size: 30px;
+    }
+    .product-box {
+        width:50%;
+    }
+    .product-container {
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .main-title {
+        font-size: 20px;
+    }
+    .product-box {
+        width: 100%;
+    }
+    .product-container {
+        max-width: 400px;
+    }
+    .first-name {
+        width: 100%;
+    }
+    .last-name {
+        width: 100%;
+    }
+}
