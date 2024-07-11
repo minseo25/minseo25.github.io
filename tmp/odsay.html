@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODSay API Example</title>
+</head>
+<body>
+    <h1>ODSay API Example</h1>
+    <button id="fetch-data">Fetch Data</button>
+    <pre id="output"></pre>
+
+    <script>
+        document.getElementById('fetch-data').addEventListener('click', function() {
+            const url = "https://api.odsay.com/v1/api/searchPubTransPathT?SX=126.9027279&SY=37.5349277&EX=126.9145430&EY=37.5499421&apiKey=	4zKNFX6rOCTOWPm1YMeBXQ";
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    document.getElementById('output').textContent = 'Error fetching data';
+                });
+        });
+    </script>
+</body>
+</html>
