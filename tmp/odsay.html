@@ -16,6 +16,8 @@
         <input type="text" id="ex" name="ex"><br>
         <label for="ey">End Y (Latitude): </label>
         <input type="text" id="ey" name="ey"><br>
+        <label for="api">API KEY: </label>
+        <input type="text" id="api" name="api"><br>
         <button type="button" id="fetch-data">Fetch Data</button>
     </form>
     <pre id="output"></pre>
@@ -26,8 +28,9 @@
             const sy = document.getElementById('sy').value;
             const ex = document.getElementById('ex').value;
             const ey = document.getElementById('ey').value;
+            const api = document.getElementById('api').value;
 
-            const url = `https://api.odsay.com/v1/api/searchPubTransPathT?SX=${sx}&SY=${sy}&EX=${ex}&EY=${ey}&apiKey=4zKNFX6rOCTOWPm1YMeBXQ`;
+            const url = `https://api.odsay.com/v1/api/searchPubTransPathT?SX=${sx}&SY=${sy}&EX=${ex}&EY=${ey}&apiKey=${api}`;
 
             fetch(url)
                 .then(response => response.json())
