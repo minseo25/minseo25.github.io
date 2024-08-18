@@ -1,8 +1,20 @@
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('./assets/fonts/ABeeZee-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('./assets/fonts/ABeeZee-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +22,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.italic-text {
+  font-style: italic;
 }
