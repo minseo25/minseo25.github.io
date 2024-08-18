@@ -4,7 +4,7 @@ import show_detail from '../../assets/images/show_detail.png';
 
 const Post = ({ post, showDetails, onToggleDetails }) => {
   return (
-    <div className="h-24 flex justify-between items-center">
+    <div className="h-lg:h-24 h-20 flex justify-between items-center">
       <h3 className="text-3xl font-medium pl-7">{post.title}</h3>
       <img
         src={showDetails ? close_detail : show_detail}

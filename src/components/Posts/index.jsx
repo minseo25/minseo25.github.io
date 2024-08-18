@@ -22,7 +22,7 @@ const Posts = () => {
 
   return (
     <div className="flex-1 px-24 pt-16 overflow-auto h-full">
-      <h2 className="text-xl font-semibold mb-4 pl-2">전체 글 (3)</h2>
+      <h2 className="text-xl font-semibold mb-4 pl-2">전체 글 ({posts.length})</h2>
       <div className="w-full h-[2px] bg-gray-400 my-2"></div> {/* Divider */}
       {posts.map((post, index) => (
         <div key={post.id}>
@@ -31,7 +31,7 @@ const Posts = () => {
             showDetails={detailsVisibility[index]}
             onToggleDetails={() => toggleDetails(index)}
           />
-          {detailsVisibility[index] && <Detail />}
+          {detailsVisibility[index] && <Detail post={post} />}
           <div className="w-full h-[2px] bg-gray-400 my-2"></div> {/* Divider */}
         </div>
       ))}

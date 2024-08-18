@@ -12,9 +12,9 @@ const Month = ({ currentDate, setCurrentDate }) => {
   };
 
   return (
-    <div className="flex items-center justify-between w-full mb-3">
+    <div className="flex items-center justify-between w-full h-lg:mb-3 mb-2">
       <img src={prev} alt="Prev" className="w-6 h-6 cursor-pointer" onClick={handlePrevMonth} />
-      <span className="text-xl font-semibold text-gray-200">{currentDate.toLocaleString('default', { month: 'long', year: 'numeric' })}</span>
+      <span className="h-lg:text-xl text-lg font-semibold text-gray-200">{currentDate.toLocaleString('default', { month: 'long', year: 'numeric' })}</span>
       <img src={next} alt="Next" className="w-6 h-6 cursor-pointer" onClick={handleNextMonth} />
     </div>
   );

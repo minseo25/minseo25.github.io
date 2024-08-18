@@ -23,14 +23,14 @@ const Calendar = () => {
   }
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col mb-10'>
       <Month currentDate={currentDate} setCurrentDate={setCurrentDate} />
-      <div className="grid grid-cols-7 gap-4 mb-6">
+      <div className="grid grid-cols-7 h-lg:gap-4 gap-2 h-lg:mb-6 mb-4">
         {['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map(day => (
           <div key={day} className="w-8 h-8 flex text-md items-center justify-center text-gray-400">{day}</div>
         ))}
       </div>
-      <div className="grid grid-cols-7 gap-4">
+      <div className="grid grid-cols-7 h-lg:gap-4 gap-2">
         {daysWithNulls.map((day, index) => {
           if(day === null) {
             return <div key={index} className="w-8 h-8"></div>;
