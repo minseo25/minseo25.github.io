@@ -39,6 +39,13 @@ const info = {
       ],
     },
     {
+      "name": "Deeping Source Engineering Team Intern (24.7 ~ 24.8)",
+      "details": [
+        "사내 딥러닝 모델 일부 개선 및 학습",
+        "보행자 분석을 위한 데이터셋 파이프라인 구축"
+      ]
+    },
+    {
       "name": "IEEE International Conference 참여 (24.9, Padova, Italy)",
       "details": [
         "반도체특성화대학 장학생 국외연수 프로그램"

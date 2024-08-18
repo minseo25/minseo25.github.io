@@ -4,7 +4,7 @@ const info = {
     "23년 5월 26일생 (집사와 생일 하루 차이)",
     "냥생 하악질 경험 전무",
     "눈이 큼",
-    "goorum._.i"
+    "instagram: goorum._.i"
   ],
 }
 
