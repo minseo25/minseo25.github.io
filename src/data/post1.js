@@ -6,7 +6,7 @@ const info = {
     "- [Security] IDA, windbg, burp suite, wireshark, WinAFL/WTF fuzzer 사용 경험 존재",
     "- [AI/DL] PyTorch, OpenCV, ClearML 사용 경험 존재",
     "- [English] TOEIC 975, TOEFL 103",
-    "- [major GPA] 4.19/4.3"
+    "- [major GPA] 4.xx/4.3"
   ],
   "My Interest?": [
     "- 풋살 (플랩풋볼 세미프로 3), 테니스, 탁구, 배드민턴 등등",
