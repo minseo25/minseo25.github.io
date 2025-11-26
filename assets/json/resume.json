@@ -1,36 +1,34 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "name": "Minseo Kim",
+    "label": "Undergraduate Student",
+    "email": "ms05251@snu.ac.kr",
+    "summary": "Undergraduate Student @ Seoul National University. Interested in efficient model inference and AI systems."
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Deeping Source Inc.",
+      "position": "ML Engineering Intern",
+      "url": "https://www.deepingsource.io/?r=0",
+      "startDate": "2024-07-01",
+      "endDate": "2025-08-31",
+      "summary": "Built a robust data pipeline; added gaze-vector inference to an existing pedestrian attribute recognition model."
+    },
+    {
+      "name": "Architecture and Code Optimization Lab, SNU",
+      "position": "Undergraduate Researcher",
+      "url": "https://arc.snu.ac.kr/",
+      "startDate": "2025-01-02",
+      "endDate": "2025-02-28",
+      "summary": "Developed system-level optimizations for ANNS workloads, improving throughput and reducing I/O overhead."
+    },
+    {
+      "name": "Pallas Lab, UC Berkeley",
+      "position": "Undergraduate Visiting Researcher",
+      "url": "https://github.com/SqueezeAILab",
+      "startDate": "2025-06-01",
+      "endDate": "2025-12-31",
+      "summary": "LLM inference on compute-in-memory (CIM) hardware; efficient inference in Diffusion Language Models (DLMs)."
     }
   ],
   "volunteer": [
@@ -47,24 +45,68 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Seoul National University",
+      "location": "Seoul, Korea",
+      "url": "https://cse.snu.ac.kr/en/",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Science (Summa Cum Laude Expected)",
+      "startDate": "2020-03-01",
+      "endDate": "2026-08-01"
+    },
+    {
+      "institution": "University of California, Berkeley",
+      "location": "Berkeley, USA",
+      "url": "https://www.berkeley.edu/",
+      "studyType": "Summer Session Visiting Student",
+      "startDate": "2025-06-23",
+      "endDate": "2025-08-15"
+    },
+    {
+      "institution": "Korea Minjok Leadership Academy",
+      "location": "Gangwon-do, Korea",
+      "url": "http://english.minjok.hs.kr/contents/main.php",
+      "area": "STEM",
+      "studyType": "High School Diploma",
+      "startDate": "2017-03-01",
+      "endDate": "2020-02-01"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Grand Prize (top award) - 2025 AI Chip Contest",
+      "date": "2025-12",
+      "awarder": "National IT Industry Promotion Agency (NIPA)",
+      "summary": "AI semiconductor track; optimized vision preprocessing on Furiosa/Rebellions NPUs (KRW 10M prize)."
+    },
+    {
+      "title": "Gaheonsindo Foundation Scholarship",
+      "date": "2024-03",
+      "awarder": "Gaheonsindo Foundation",
+      "summary": "Full undergraduate tuition scholarship (ongoing)."
+    },
+    {
+      "title": "SNU Specialized Semiconductor College Scholarship",
+      "date": "2024-02",
+      "awarder": "Korea Institute for Advancement of Technology",
+      "summary": "Awarded for excellence in engineering; includes a KRW 10M graduation prize."
+    },
+    {
+      "title": "Accelerator Programming Winter School Outstanding Graduate",
+      "date": "2025-02",
+      "awarder": "SNU Thunder Lab, ManyCoreSoft",
+      "summary": "Placed 1st in CUDA-based heterogeneous and accelerator computing challenges."
+    },
+    {
+      "title": "Whitehat School Outstanding Graduate",
+      "date": "2024-03",
+      "awarder": "Ministry of Science and ICT",
+      "summary": "Ranked 1st among 309 participants (KRW 3M prize)."
+    },
+    {
+      "title": "Merit-based Scholarship",
+      "date": "2023",
+      "awarder": "Seoul National University",
+      "summary": "Awarded for academic merit (received in 2021 and 2023)."
     }
   ],
   "certificates": [
@@ -162,18 +204,10 @@
     }
   ],
   "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
+    { "name": "Futsal", "icon": "fa-solid fa-futbol" },
+    { "name": "Tennis", "icon": "fa-solid fa-table-tennis-paddle-ball" },
+    { "name": "Cat", "icon": "fa-solid fa-cat" },
+    { "name": "Weight Training", "icon": "fa-solid fa-dumbbell" }
   ],
   "references": [
     {

@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Undergraduate Student, CSE, Seoul National University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +19,15 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm an undergraduate student at [Seoul National University](https://en.snu.ac.kr/) majoring in [Computer Science and Engineering](https://cse.snu.ac.kr/en). My research focuses on improving the efficiency of large-scale AI models grounded in a deep understanding of systems.
+I aim to achieve this by developing system-aware algorithmic methods and cross-stack designs that enable efficient training and serving in real-world deployments.
+Currently, I am working on inference efficiency for large language models (LLMs) and diffusion language models (DLMs).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During my undergraduate years, I have been fortunate to be part of two great research groups. I am currently a visiting researcher in the Pallas Lab at [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/), advised by [Prof. Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/) and [Dr. Amir Gholami](https://amirgholami.org/). Previously, I worked in the [Architecture and Code Optimization Lab (ARC Lab)](https://arc.snu.ac.kr/) at Seoul National University, advised by [Prof. Jae W. Lee](https://iamjaelee.github.io/www/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<b>I am seeking a PhD position starting in Fall 2026.</b>
