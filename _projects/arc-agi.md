@@ -27,7 +27,7 @@ related_publications: false
   <li class="mt-1">
     <i class="fa-solid fa-file-pdf mr-1"></i>
     <b>Technical Report</b>:
-    <a href="{{ '/assets/pdf/ARC-AGI-solver.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">ARC-AGI-solver.pdf</a>
+    <a href="{{ '/assets/pdf/arc-agi-solver.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">arc-agi-solver.pdf</a>
   </li>
   <li class="mt-1">
     <i class="fa-solid fa-link mr-1"></i>
@@ -40,5 +40,5 @@ related_publications: false
 
 <ul>
   <li>Intro to Deep Learning (senior course in SNU) term project: built an ARC-AGI solver; placed 1st among 35 teams on the hidden evaluation.</li>
-  <li>Fine-tuned Qwen3-4B with LoRA, curated data augmentation, and a custom <code>lm_head</code>; applied two test-time scaling methods (test-time training and grid-wise voting). (<a href="{{ '/assets/pdf/ARC-AGI-solver.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Technical report</a>)</li>
+  <li>Fine-tuned Qwen3-4B with LoRA, curated data augmentation, and a custom <code>lm_head</code>; applied two test-time scaling methods (test-time training and grid-wise voting). (<a href="{{ '/assets/pdf/arc-agi-solver.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Technical report</a>)</li>
 </ul>
