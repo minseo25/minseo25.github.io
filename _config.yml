@@ -7,7 +7,7 @@ first_name: Minseo
 middle_name:
 last_name: Kim
 contact_note: >
-  Contact me at ms05251@snu.ac.kr.
+  Contact me at ms05251 [at] snu.ac.kr.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Undergraduate Student at Seoul National University interested in efficient model inference and AI systems.
 footer_text: >
