@@ -9,7 +9,7 @@ last_name: Kim
 contact_note: >
   Contact me at ms05251 [at] snu.ac.kr.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Undergraduate Student at Seoul National University interested in efficient model inference and AI systems.
+  Undergraduate Student at Seoul National University interested in efficient LLM inference and AI systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Minseo Kim # blog_name will be displayed in your blog page
-blog_description: Undergraduate Student at Seoul National University interested in efficient model inference and AI systems.
+blog_description: Undergraduate Student at Seoul National University interested in efficient LLM inference and AI systems.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
