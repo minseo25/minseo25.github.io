@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-05'
+  last_updated: '2025-12-15'
 papers:
   a9FY1K0AAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -10,8 +10,8 @@ papers:
     title: 'InstANNS: Scalable Approximate Nearest Neighbor Search via Cost-Efficient In-Storage Processing'
     year: '2025'
   a9FY1K0AAAAJ:u-x6o8ySG0sC:
-    citations: 2
-    title: 'Beyond next-token prediction: A performance characterization of diffusion versus autoregressive language models'
+    citations: 1
+    title: 'Beyond Next-Token Prediction: A Performance Characterization of Diffusion versus Autoregressive Language Models'
     year: '2025'
   a9FY1K0AAAAJ:u5HHmVD_uO8C:
     citations: 0
