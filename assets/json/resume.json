@@ -25,10 +25,18 @@
     {
       "name": "Pallas Lab, UC Berkeley",
       "position": "Undergraduate Visiting Researcher",
-      "url": "https://github.com/SqueezeAILab",
+      "url": "https://keutzer.github.io/",
       "startDate": "2025-06-01",
-      "endDate": "2025-12-31",
+      "endDate": "2026-01-16",
       "summary": "LLM inference on compute-in-memory (CIM) hardware; efficient inference in Diffusion Language Models (DLMs)."
+    },
+    {
+      "name": "FuriosaAI",
+      "position": "AI Algorithm Research Intern",
+      "url": "https://furiosa.ai/",
+      "startDate": "2026-01-19",
+      "endDate": "2026-07-31",
+      "summary": "TBD."
     },
     {
       "name": "Republic of Korea Air Force",
