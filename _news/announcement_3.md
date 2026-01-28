@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on accelerating DLM inference is accepted to MLSys 2026. Huge thanks to my collaborators - Chenfeng, Coleman, and Harman! [[Link]](https://arxiv.org/pdf/2511.19269)
+Our [paper](https://arxiv.org/pdf/2511.19269) on accelerating DLM inference is accepted to MLSys 2026. Huge thanks to my collaborators - Chenfeng, Coleman, and Harman!

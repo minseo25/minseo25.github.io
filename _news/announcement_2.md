@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our paper on DLM analysis is now on arXiv. [[Link]](https://arxiv.org/pdf/2510.04146)
+Our [paper](https://arxiv.org/pdf/2510.04146) on DLM analysis is now on arXiv.
 This is my first paper at Berkeley! :sparkles:
