@@ -1,15 +1,15 @@
 metadata:
-  last_updated: '2026-01-23'
+  last_updated: '2026-02-09'
 papers:
-  a9FY1K0AAAAJ:9yKSN-GCB0IC:
-    citations: 0
+  a9FY1K0AAAAJ:2osOgNQ5qMEC:
+    citations: 1
     title: 'CDLM: Consistency Diffusion Language Models For Faster Sampling'
     year: '2025'
   a9FY1K0AAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: 'InstANNS: Scalable Approximate Nearest Neighbor Search via Cost-Efficient In-Storage Processing'
     year: '2025'
-  a9FY1K0AAAAJ:u-x6o8ySG0sC:
+  a9FY1K0AAAAJ:qjMakFHDy7sC:
     citations: 1
     title: 'Beyond Next-Token Prediction: A Performance Characterization of Diffusion versus Autoregressive Language Models'
     year: '2025'
