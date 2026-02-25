@@ -30,7 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-our-vlm-team-at-attentionx-had-a-paper-accepted-to-emnlp-2025-i-ll-be-presenting-it-in-suzhou-china-nov-5-7-link",
+        },{id: "news-our-vlm-team-at-attentionx-had-a-paper-accepted-to-emnlp-2025-i-ll-be-presenting-it-in-suzhou-china-nov-5-7",
           title: 'Our VLM team at AttentionX had a paper accepted to EMNLP 2025! I’ll...',
           description: "",
           section: "News",},{id: "news-our-paper-on-dlm-analysis-is-now-on-arxiv-this-is-my-first-paper-at-berkeley-sparkles",
@@ -45,7 +45,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-joining-furiosaai-as-an-ai-algorithm-research-intern-looking-forward-to-collaborating-with-a-great-team",
           title: 'I’m joining FuriosaAI as an AI Algorithm Research Intern, looking forward to collaborating...',
           description: "",
-          section: "News",},{id: "news-our-paper-on-accelerating-dlm-inference-is-accepted-to-mlsys-2026-huge-thanks-to-my-collaborators-chenfeng-coleman-and-harman",
+          section: "News",},{id: "news-our-paper-on-accelerating-dlm-inference-is-accepted-to-mlsys-2026-huge-thanks-to-my-collaborators-chenfeng-coleman-and-harman-togetherai-blog",
           title: 'Our paper on accelerating DLM inference is accepted to MLSys 2026. Huge thanks...',
           description: "",
           section: "News",},{id: "projects-arc-agi-solver",
