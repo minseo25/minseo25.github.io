@@ -1,8 +1,12 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-25'
 papers:
-  a9FY1K0AAAAJ:2osOgNQ5qMEC:
-    citations: 1
+  a9FY1K0AAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: 'MAGE: All-[MASK] Block Already Knows Where to Look in Diffusion LLM'
+    year: '2026'
+  a9FY1K0AAAAJ:UeHWp8X0CEIC:
+    citations: 4
     title: 'CDLM: Consistency Diffusion Language Models For Faster Sampling'
     year: '2025'
   a9FY1K0AAAAJ:d1gkVwhDpl0C:
@@ -10,10 +14,10 @@ papers:
     title: 'InstANNS: Scalable Approximate Nearest Neighbor Search via Cost-Efficient In-Storage Processing'
     year: '2025'
   a9FY1K0AAAAJ:qjMakFHDy7sC:
-    citations: 1
+    citations: 2
     title: 'Beyond Next-Token Prediction: A Performance Characterization of Diffusion versus Autoregressive Language Models'
     year: '2025'
   a9FY1K0AAAAJ:u5HHmVD_uO8C:
-    citations: 1
+    citations: 2
     title: 'KRETA: A Benchmark for Korean Reading and Reasoning in Text-Rich VQA Attuned to Diverse Visual Contexts'
     year: '2025'
