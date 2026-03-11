@@ -6,6 +6,7 @@ img: assets/img/kreta2.png
 importance: 2
 category: work
 related_publications: false
+published: false
 ---
 
 <ul class="list-unstyled">

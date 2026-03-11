@@ -6,6 +6,7 @@ img: assets/img/nntrainer.png
 importance: 3
 category: work
 related_publications: false
+published: false
 ---
 
 <ul class="list-unstyled">
