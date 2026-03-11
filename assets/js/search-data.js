@@ -58,21 +58,6 @@ ninja.data = [{
           description: "Art College Graduation Exhibition Sales Website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/graduart/";
-            },},{id: "projects-kreta",
-          title: 'KRETA',
-          description: "Korean Text-Rich VQA Benchmark and fine-tuned VLM",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/kreta/";
-            },},{id: "projects-llm-on-compute-in-memory-cim",
-          title: 'LLM on Compute-In-Memory (CIM)',
-          description: "Making LLM Inference Feasible on Compute-in-Memory (CIM) hardware",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/llmoncim/";
-            },},{id: "projects-nntrainer",
-          title: 'NNTrainer',
-          description: "Open‑source contribution to NNTrainer (on‑device training framework)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/nntrainer/";
             },},{id: "projects-save-the-hamster",
           title: 'Save The Hamster',
           description: "Physics-Based 3D Puzzle Game",
