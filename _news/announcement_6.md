@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm joining [FuriosaAI](https://furiosa.ai/) as an AI Algorithm Research Intern, looking forward to collaborating with a great team!
+I'm joining [FuriosaAI](https://furiosa.ai/) as an AI Algorithm Research Intern!

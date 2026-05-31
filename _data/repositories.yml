@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - minseo25
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - SqueezeAILab/CDLM
+  - minseo25/arc-agi-solver
+  - minseo25/KOVA
+  - minseo25/SNU_GraduART_Backend
+  - minseo25/SAVE_THE_HAMSTER
