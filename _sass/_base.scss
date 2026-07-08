@@ -218,6 +218,10 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+.about-flex {
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -226,6 +230,36 @@ ul.task-list input[type="checkbox"] {
       p {
         display: block;
       }
+    }
+  }
+
+  // Bottom-anchor the profile photo so its lower edge always lines up with
+  // the last line of the intro text, at any viewport width. The header
+  // (name + subtitle) lives inside the left column, so the photo is free
+  // to rise up next to it when the intro text is short.
+  .about-flex {
+    display: flex;
+    align-items: flex-end;
+
+    &.about-flex-left {
+      flex-direction: row-reverse;
+    }
+
+    .about-main {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+
+    .profile {
+      flex-shrink: 0;
+
+      figure {
+        margin-bottom: 0;
+      }
+    }
+
+    .about-content > p:last-child {
+      margin-bottom: 0;
     }
   }
 }
