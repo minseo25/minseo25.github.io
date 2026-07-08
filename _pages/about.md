@@ -24,9 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm an undergraduate student at [Seoul National University](https://en.snu.ac.kr/) majoring in [Computer Science and Engineering](https://cse.snu.ac.kr/en). My research focuses on improving the efficiency of large-scale AI models grounded in a deep understanding of systems.
-Currently, I focus on efficient RL post-training and inference efficiency for large language models (LLMs) and diffusion language models (DLMs).
-
-During my undergraduate years, I have been fortunate to be part of two great research groups. I was a visiting researcher in the Pallas Lab at [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/), advised by [Prof. Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/) and [Dr. Amir Gholami](https://amirgholami.org/). Previously, I worked in the [Architecture and Code Optimization Lab (ARC Lab)](https://arc.snu.ac.kr/) at Seoul National University, advised by [Prof. Jae W. Lee](https://iamjaelee.github.io/www/).
+Hi, I'm an undergraduate student at [Seoul National University](https://en.snu.ac.kr/) majoring in [Computer Science and Engineering](https://cse.snu.ac.kr/en). I am broadly interested in efficient LLM inference and post-training. During my undergraduate years, I was a visiting researcher at [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/), advised by [Prof. Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/) and [Dr. Amir Gholami](https://amirgholami.org/). Previously, I worked at the [Architecture and Code Optimization Lab (ARC Lab)](https://arc.snu.ac.kr/) at Seoul National University, advised by [Prof. Jae W. Lee](https://iamjaelee.github.io/www/).
 
 <b>Incoming UC Berkeley CS PhD student (Fall 2026).</b>
