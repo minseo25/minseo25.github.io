@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Minseo Kim",
-    "label": "Undergraduate Student",
+    "label": "PhD Student",
     "email": "minseo.kim [at] berkeley.edu",
-    "summary": "Undergraduate Student @ Seoul National University. Interested in efficient LLM inference and AI systems."
+    "summary": "Interested in efficient inference and AI systems."
   },
   "work": [
     {
@@ -61,11 +61,19 @@
   ],
   "education": [
     {
+      "institution": "University of California, Berkeley",
+      "location": "Berkeley, USA",
+      "url": "https://www.berkeley.edu/",
+      "area": "Computer Science",
+      "studyType": "Doctor of Philosophy (PhD)",
+      "startDate": "2026-08"
+    },
+    {
       "institution": "Seoul National University",
       "location": "Seoul, Korea",
       "url": "https://cse.snu.ac.kr/en/",
       "area": "Computer Science and Engineering",
-      "studyType": "Bachelor of Science (Summa Cum Laude Expected)",
+      "studyType": "Bachelor of Science (Summa Cum Laude)",
       "startDate": "2020-03-01",
       "endDate": "2026-08-01"
     },
@@ -110,7 +118,7 @@
       "title": "Gaheonsindo Foundation Scholarship",
       "date": "2024-03",
       "awarder": "Gaheonsindo Foundation",
-      "summary": "Full undergraduate tuition scholarship (ongoing)."
+      "summary": "Full undergraduate tuition scholarship."
     },
     {
       "title": "SNU Specialized Semiconductor College Scholarship",

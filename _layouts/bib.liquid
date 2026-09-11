@@ -171,7 +171,7 @@
     {% endif -%}
     {% if entry.additional_info %}
       {% assign entrytype_before_info = entrytype | strip_html | strip %}
-      {% if entrytype_before_info != "" %}
+      {% if entrytype_before_info != '' %}
         {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
       {% else %}
         {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}

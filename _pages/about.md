@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate Student, CSE, Seoul National University
+subtitle: CS PhD Student at UC Berkeley
 
 profile:
   align: right
@@ -24,6 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm an undergraduate student at [Seoul National University](https://en.snu.ac.kr/) majoring in [Computer Science and Engineering](https://cse.snu.ac.kr/en). I am broadly interested in efficient LLM inference and post-training. During my undergraduate years, I was a visiting researcher at [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/), advised by [Prof. Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/) and [Dr. Amir Gholami](https://amirgholami.org/). Previously, I worked at the [Architecture and Code Optimization Lab (ARC Lab)](https://arc.snu.ac.kr/) at Seoul National University, advised by [Prof. Jae W. Lee](https://iamjaelee.github.io/www/).
-
-<b>Incoming UC Berkeley CS PhD student (Fall 2026).</b>
+Hi, I'm a CS PhD student at [UC Berkeley](https://www.berkeley.edu/), advised by [Prof. Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/). I'm broadly interested in efficient inference and AI systems. My recent interests include hybrid attention, post-training, and agentic systems. During my undergrad years, I worked with [Prof. Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/) and [Dr. Amir Gholami](https://amirgholami.org/) at [BAIR](https://bair.berkeley.edu/), and [Prof. Jae W. Lee](https://iamjaelee.github.io/www/) at [SNU's ARC Lab](https://arc.snu.ac.kr/).

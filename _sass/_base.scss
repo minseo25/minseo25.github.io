@@ -233,13 +233,10 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  // Bottom-anchor the profile photo so its lower edge always lines up with
-  // the last line of the intro text, at any viewport width. The header
-  // (name + subtitle) lives inside the left column, so the photo is free
-  // to rise up next to it when the intro text is short.
+  // Align the name and photo at the top, with extra space before the affiliation.
   .about-flex {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
 
     &.about-flex-left {
       flex-direction: row-reverse;
@@ -250,7 +247,12 @@ ul.task-list input[type="checkbox"] {
       min-width: 0;
     }
 
+    .post-title {
+      margin-bottom: 2rem;
+    }
+
     .profile {
+      width: 27%;
       flex-shrink: 0;
 
       figure {
