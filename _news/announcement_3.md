@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our [paper](https://arxiv.org/pdf/2511.19269) on accelerating DLM inference is accepted to MLSys 2026. ([TogetherAI blog](https://www.together.ai/blog/consistency-diffusion-language-models))
+[CDLM](https://arxiv.org/abs/2511.19269) accepted to MLSys 2026. ([TogetherAI blog](https://www.together.ai/blog/consistency-diffusion-language-models))

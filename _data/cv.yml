@@ -1,5 +1,4 @@
-# The CV is served as a PDF (see _pages/cv.md -> assets/pdf/mskim_cv.pdf).
-# This data file is intentionally left empty so the /cv page renders only the
-# PDF download link instead of an inline table.
-# To switch to an inline CV, populate entries here following the al-folio schema
-# (see https://github.com/alshedivat/al-folio for examples).
+# The /cv/ page uses assets/json/resume.json, loaded by jekyll_get_json in _config.yml.
+# The jsonresume list in _config.yml selects which sections are displayed.
+# Its separate PDF download is assets/pdf/mskim_cv.pdf (linked in _pages/cv.md).
+# This file is an unused fallback for _layouts/cv.liquid when site.data.resume is absent.
