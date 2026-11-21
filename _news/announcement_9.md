@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released [2DSD](https://github.com/SqueezeAILab/2DSD/blob/main/paper/2DSD.pdf), our paper on two-dimensional speculative decoding for looped language models. It works with any block drafter and supports both model-wise and block-wise looped LMs. [Code](https://github.com/SqueezeAILab/2DSD)
+We released [2DSD](https://github.com/SqueezeAILab/2DSD), our work on two-dimensional SD for looped language models (LMs). It works with any block drafter and supports both model-wise and block-wise looped LMs.
